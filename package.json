@@ -1,0 +1,30 @@
+{
+  "name": "@jofr/express-turn-credentials-rest-api",
+  "version": "1.0.0",
+  "description": "Express middleware for the TURN credentials REST API",
+  "type": "commonjs",
+  "types": "./dist/turn_credentials.d.ts",
+  "main": "./dist/turn_credentials.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofr/express-turn-credentials-rest-api.git"
+  },
+  "keywords": [
+    "express",
+    "turn"
+  ],
+  "author": "Jonas <jofr@vivaldi.net>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jofr/express-turn-credentials-rest-api/issues"
+  },
+  "homepage": "https://github.com/jofr/express-turn-credentials-rest-api#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4"
+  }
+}
